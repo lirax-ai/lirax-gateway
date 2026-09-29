@@ -1,0 +1,20 @@
+# Local configuration and environment variables
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.*.example
+!.env.*.sample
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Transient output
+*.log
+.cache/
