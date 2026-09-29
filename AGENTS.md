@@ -1,5 +1,6 @@
 # Instructions for contributors and agents
 
+- Use English for the primary README, documentation, issues, pull requests, and maintenance discussions. Keep protocol names and code identifiers in their original form; optional translations must not replace the English source of truth.
 - Treat this public repository as the complete context needed to maintain Lirax Gateway. Do not depend on access to private planning material.
 - Preserve the intent of existing code and documents. When changing behavior or a public contract, update the relevant documentation in the same change.
 - Put actionable open questions in GitHub issues. Record decisions with lasting architectural or operational impact in `docs/decisions/` using the format described there.
