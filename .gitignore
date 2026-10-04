@@ -1,0 +1,11 @@
+# Local configuration and credentials
+/.local/
+.env
+.env.*
+!.env.example
+
+# Local scratch files
+scratch/
+*.log
+.DS_Store
+Thumbs.db
