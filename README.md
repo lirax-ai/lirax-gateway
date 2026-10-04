@@ -2,7 +2,7 @@
 
 `lirax-gateway` is a gateway project in its initial planning phase. This is the main public repository for its implementation, documentation, requirements, and design decisions, maintained by people and AI assistants.
 
-There is no runnable release yet. The gateway's purpose, initial scope, and technology stack are still to be defined.
+The project explores enterprise agent governance through identity, permissions, and accountability, with MCP integration as its intended direction. See the [governance exploration](docs/governance-exploration.md) for the problem, expressed needs, and open questions. There is no runnable release yet; initial scope and the technology stack remain undecided.
 
 English is the primary language for shared documentation, project templates, and maintenance records.
 

@@ -4,7 +4,7 @@ Updated: 2026-10-04.
 
 ## Project phase
 
-Early research and requirements definition. The gateway's purpose, initial scope, technology stack, and license are not yet defined. There is no runnable gateway release.
+Early research and open exploration. The intended direction is enterprise agent governance through identity, permissions, and accountability, with MCP integration. Intended participants and expressed governance needs are recorded in [Governance exploration](governance-exploration.md). Initial release scope, technology stack, and license remain undecided. There is no runnable gateway release.
 
 ## Confirmed working conventions
 
@@ -16,7 +16,9 @@ Early research and requirements definition. The gateway's purpose, initial scope
 
 ## Active task and next step
 
-[G-0001: Define the initial use case and scope](tasks/G-0001-define-first-release.md) is waiting for the project initiator to describe the gateway's intended purpose. Use that input to define requirements before choosing an architecture or implementing features.
+[G-0001: Define the initial use case and scope](tasks/G-0001-define-first-release.md) is in progress. Explore agent identity, user delegation, trusted task boundaries, temporary approval, and governance across systems. Current exploration also considers employee permission management across multiple authority arrangements and ways to simplify configuration. Initial Microsoft and OpenConnector references provide context, with explicit validation limits. Expressed needs are not an initial release commitment; scope and acceptance criteria will be discussed later.
+
+On 2026-10-04, the initiator authorized committing and pushing the exploration and navigation updates. This publishes research documentation, not an implemented release; Git history and remote branch state establish the actual publication result.
 
 ## Handoff entry points
 

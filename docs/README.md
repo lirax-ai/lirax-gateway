@@ -1,10 +1,11 @@
 # Project documentation
 
-Current phase: requirements definition. There is no runnable release yet; feature scope and the technology stack remain undecided.
+Current phase: open exploration of agent identity and permission governance. There is no runnable release yet; initial scope and the technology stack remain undecided.
 
 | Document | Purpose |
 | --- | --- |
 | [Current status](status.md) | Confirmed facts, active tasks, and the next step |
+| [Governance exploration](governance-exploration.md) | Intended users, expressed governance needs, rationale, and unresolved questions |
 | [Workflow](workflow.md) | Starting, validating, and handing off work without a hosting platform dependency |
 | [Task records](tasks/README.md) | Task scope, acceptance criteria, progress, and handoffs |
 | [Repository foundations](repository-basics.md) | Ignore rules, text conventions, and local checks |

@@ -6,7 +6,7 @@ The project directory should let a person or AI assistant understand the current
 
 1. Read `AGENTS.md` and `.local/AGENTS.md` if the latter exists.
 2. Read [current status](status.md), the [task index](tasks/README.md), and the relevant task record. Read only the research and decisions needed for the task; the entire history is not required for every session.
-3. Confirm the objective, scope, and acceptance criteria. Record missing input explicitly instead of treating assumptions as confirmed requirements.
+3. Confirm the objective and current stage. During open exploration, distinguish vision, expressed needs, hypotheses, and conflicts; defer the initial feature set and product acceptance criteria. Define scope and acceptance criteria before implementation. Record missing input explicitly instead of treating assumptions as confirmed requirements.
 4. Inspect existing work. When Git is available, use `git status` and `git diff`. With a file-only copy, inspect the files and preserve copies before editing; Git metadata is not required to read or organize project knowledge.
 
 ## Record and execute
