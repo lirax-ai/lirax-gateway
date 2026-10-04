@@ -1,0 +1,19 @@
+# Normalize text in Git; use LF in working copies by default
+* text=auto eol=lf
+
+# Use CRLF in working copies of Windows command scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Preserve images, documents, and archives as binary content
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.pptx binary
+*.zip binary

@@ -1,11 +1,50 @@
-# Local configuration and credentials
+# Machine-specific materials
 /.local/
+/scratch/
+/tmp/
+/temp/
+/logs/
+
+# Environment configuration; examples contain placeholder values only
 .env
 .env.*
 !.env.example
+!.env.sample
+!.env.template
+!.env.*.example
+!.env.*.sample
+!.env.*.template
 
-# Local scratch files
-scratch/
+# Common credential files
+.netrc
+.git-credentials
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# Local editor and tool state; recommended extensions can be shared
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+.history/
+.direnv/
+
+# Editor temporary files and runtime logs
+*.swp
+*.swo
+*~
+.#*
+\#*\#
 *.log
+
+# Operating system files
 .DS_Store
+._*
 Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Add actual dependency, build, and test outputs after choosing the stack

@@ -8,6 +8,8 @@ List the checks actually performed and their results. Explain anything that was 
 
 ## Related documentation and decisions
 
-Link relevant issues, documentation, or design decisions. State when this does not apply.
+Link the repository task record, affected documentation, and design decisions. Issues may be linked as additional context. State when this does not apply.
+
+Keep lasting requirements, rationale, validation results, and handoff details in repository files so they remain available without this PR.
 
 ## Known limitations or follow-up work

@@ -13,6 +13,8 @@ Keep the requirements, interface conventions, important design tradeoffs, and va
 
 Record important design decisions in `docs/decisions/` and update the documentation index. Distinguish facts, plans, assumptions, and unverified conclusions.
 
+[Decision 0002](0002-directory-based-collaboration.md) specifies how durable task and handoff context is kept in repository files, with issues and PRs as optional supplements.
+
 ## Rationale and alternatives
 
 Keeping only code loses requirements and tradeoffs. Keeping only discussion links does not guarantee access. Publishing all source materials would expose non-public context. Prepare public records of the information needed for maintenance instead.

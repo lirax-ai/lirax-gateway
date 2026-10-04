@@ -4,6 +4,7 @@
 
 - Read `.local/AGENTS.md` first if it exists. This file is specific to the current machine and is not distributed with the repository.
 - Read `README.md`, `CONTRIBUTING.md`, `docs/README.md`, and the design records relevant to the task.
+- For a handoff, read `docs/status.md`, `docs/workflow.md`, `docs/tasks/README.md`, and the relevant task record.
 - The project is defining its requirements. Do not assume a language, framework, protocol, deployment model, or unimplemented feature.
 - Follow the network, permission, and data handling rules supplied by the user and runtime environment. Do not make personal configuration a project prerequisite.
 - Check existing changes, preserve the user's work, and avoid destructive Git operations.
@@ -23,6 +24,9 @@
 
 ## Maintainable changes
 
+- Repository files provide the context needed to continue work. GitHub, other hosting platforms, and chat history are optional channels, not prerequisites.
+- Use `docs/tasks/` for substantial research, requirements work, or changes across files. Record the problem, scope, acceptance criteria, progress, validation, and next step. Small corrections can update the relevant document directly.
+- Before taking over work, check the task state and existing edits. When multiple people or assistants work concurrently, record their scopes and avoid overlapping edits.
 - Keep changes focused. Define expected behavior and acceptance criteria before implementation.
 - Update documentation when requirements, interfaces, configuration, deployment, or architecture change. Record important tradeoffs in `docs/decisions/`.
 - Explain the problem, constraints, rationale, consequences, and validation method. Inaccessible discussions or materials cannot replace an explanation.
@@ -30,6 +34,8 @@
 - Run checks relevant to implemented features or bug fixes. Report actual results and anything that could not be verified.
 - Tests should check observable behavior. For documentation-only changes, check links, consistency, and the diff.
 - Do not invent run commands, test results, performance figures, or compatibility promises.
+- At a handoff, update the task with completed work, actual validation results, unresolved questions, and an actionable next step. Update `docs/status.md` when the project phase or active tasks change.
+- Summarize conclusions and necessary evidence in repository files. External links supplement those records; new research, dependency downloads, and service checks may still need a network connection.
 
 ## Search and research
 

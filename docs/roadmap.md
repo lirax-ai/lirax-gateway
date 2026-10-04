@@ -4,6 +4,8 @@ This document records plans. It does not indicate that the listed capabilities h
 
 ## Current phase: define the initial release
 
+Track the detailed scope and progress in [G-0001](tasks/G-0001-define-first-release.md). The roadmap lists milestones; task records hold execution and handoff details.
+
 - [ ] Identify the systems or services the gateway connects, its intended users, and its core use case.
 - [ ] Define initial scope, exclusions, and verifiable acceptance criteria.
 - [ ] Define the runtime environment, technology stack, and interface constraints; record important tradeoffs.
