@@ -20,6 +20,14 @@ Early research and open exploration. The intended direction is enterprise agent 
 
 On 2026-10-04, the initiator authorized committing and pushing the exploration and navigation updates. This publishes research documentation, not an implemented release; Git history and remote branch state establish the actual publication result.
 
+After that push, exploration added ID-JAG / XAA as an expressed integration direction and reviewed LiteLLM's documented support. Draft versions, gateway roles, and interoperability remain open.
+
+A standards-based approach where feasible is now a confirmed preference. Related IETF and OpenID Foundation work is being reviewed with explicit maturity and validation limits; no implementation has been selected.
+
+Know Your Agent (KYA) is now an expressed research direction. The exploration distinguishes identity/authorization perspectives, behavioral evaluation, and KYAPay's individual drafts, and examines identity, delegation, lifecycle, and behavioral evidence. No single KYA definition or implementation is assumed.
+
+The initiator subsequently authorized committing and pushing these additions and the search-rule update prioritizing Chinese search engines for information about China. They are included in this documentation publication; Git history and remote branch state establish its result. Future work remains local by default.
+
 ## Handoff entry points
 
 - [Workflow](workflow.md)

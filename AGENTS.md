@@ -39,9 +39,9 @@
 
 ## Search and research
 
-- Use Google first. Report connection failures explicitly, including the stage of failure and any observable cause.
+- For information about China, prioritize Chinese search engines such as Baidu or Sogou. For other information, use Google first by default. Report connection failures explicitly, including the stage of failure and any observable cause.
 - Empty responses, parsing failures, CAPTCHAs, rate limits, and access restrictions do not mean that relevant information does not exist. Inspect response status and content, then retry with revised search terms.
-- If Google repeatedly returns empty results, try Bing. If Bing also produces no usable results, try other search engines and record why you switched.
+- When searches for information about China yield no usable results or encounter restrictions, try another Chinese search engine first, then supplement with Google, Bing, or others as needed. For other searches, if Google repeatedly returns empty results, try Bing; if Bing also produces no usable results, try other search engines. Record why you switched and the actual results or restrictions for each engine.
 - Distinguish information not found in this search, tool or network limitations, and absence confirmed by a source. Empty search results do not prove absence.
 - Prefer official documentation, source code, and other primary sources. Treat search snippets as leads.
 - When citing research conclusions, record public sources, dates, search coverage, limitations, and anything still unverified.

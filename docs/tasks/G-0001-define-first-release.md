@@ -28,17 +28,35 @@ The initiator clarified the boundary between a provider's internal workflow and 
 
 Further exploration confirms that multiple employee-authority arrangements can coexist and treats configuration complexity as a product opportunity. Official Microsoft identity/governance references and limited OpenConnector policy code inspection are recorded in the exploration document. AI assistance remains a candidate approach; the specific Microsoft AI configuration feature was not confirmed. Existing connector controls provide a comparison baseline, not evidence of complete governance or missing capabilities.
 
+Further input explicitly requests cross-application authorization mechanisms such as ID-JAG / XAA. The exploration now records the relationship between these concepts, the active IETF draft, and LiteLLM's documented `oauth2_id_jag` support with related source paths and limitations. Protocol roles, versions, and compatibility remain open; no runtime integration was tested. This addition was initially prepared locally after the earlier push.
+
+The initiator further confirmed a preference for standards-based approaches where feasible. Official IETF and OpenID Foundation sources were reviewed to distinguish standards work, published specifications, working drafts, and interoperability initiatives. AuthZEN references are candidates for further research, not selected implementations. No conformance or interoperability test was performed.
+
+Further input requests absorbing Know Your Agent (KYA) ideas. Primary publisher sources and KYAPay's individual token and exchange drafts were read on 2026-10-04. The exploration distinguishes terminology, governance questions, behavioral evaluation, and protocol maturity. This is a research direction, not an agreed KYA implementation or initial feature scope. No verification method or protocol interoperability was tested.
+
+The initiator requested prioritizing Chinese search engines when researching information about China, and subsequently authorized committing and pushing the current documentation changes. The maintenance rules and research/navigation updates are included in this publication; actual commits and remote state establish its result.
+
 ## Validation results
+
+Before the current publication, documentation whitespace, final-newline, duplicate-heading, local-link, and section-anchor checks passed. Public content was reviewed and checked for private-context and credential markers. No runnable gateway or protocol integration was tested.
 
 Read primary sources on delegation, detailed authorization, MCP security, and excessive agency. The exploration document records source access and research limits. Checked document consistency, relative links, section anchors, and whitespace in the local changes. No gateway functionality, identity binding, backend compatibility, or temporary approval behavior has been validated. This task remains in progress.
 
 ## Handoff and next step
 
+At the KYA review stage, the addition and existing local research changes passed checks for whitespace, final newlines, duplicate headings, and local links/anchors across nine Markdown files. Public content was reviewed for private context and machine-specific details. No product capability, identity binding, or interoperability was tested. The additions were local at that stage and are now included in the authorized publication.
+
+Continue applying the KYA perspective to existing shared-agent scenarios: distinguish registration/discovery evidence, authority to configure access, and identity/delegation information verifiable at invocation. Revisit specific KYA sources if supplied; keep verification methods and protocol choices open.
+
+At the earlier ID-JAG / XAA and standards-preference review stage, the documentation additions passed whitespace, local-link, section-anchor, and duplicate-heading checks. No protocol conformance, deployed-version compatibility, or interoperability testing was performed.
+
 The latest documentation update passed whitespace, relative-link, and section-anchor checks, including new Markdown files. Product references were reviewed as documentation and limited source code only; no AI permission planning or runtime enforcement behavior was tested.
 
 Explore how employees express and understand permission plans across different authority arrangements, and how those plans relate to resource owners and enterprise constraints. Continue examining agent identity granularity, user delegation, trusted task constraints, and temporary authorization. Investigate configuration assistance and compare concrete governance controls when relevant. Do not prematurely convert all expressed needs into an initial release checklist.
 
-On 2026-10-04, the initiator authorized committing and pushing this documentation update. The task remains in progress; publication does not establish implemented capabilities or an initial release scope. Future edits remain local by default unless separately authorized.
+Continue examining cross-application authorization roles and how gateway, identity-provider, resource-side, and employee-configured rules interact. Supported versions and interoperability require future verification.
+
+On 2026-10-04, the initiator authorized the earlier documentation push and later authorized publication of the additional research and search-rule updates. The task remains in progress; publication does not establish implemented capabilities or an initial release scope. Future edits remain local by default unless separately authorized.
 
 ## Related records
 
